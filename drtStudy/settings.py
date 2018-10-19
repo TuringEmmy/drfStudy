@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'book_first.apps.BookFirstConfig',
     'book_second.apps.BookSecondConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
