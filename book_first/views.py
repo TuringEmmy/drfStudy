@@ -1,5 +1,6 @@
 import json
 
+from django.http import HttpResponse
 from django.http import JsonResponse
 from django.shortcuts import render
 
@@ -9,6 +10,7 @@ from django.views import View
 from book_first.models import BookInfo
 
 
+# -----------------------------------------添加图书和查询图书------------------------------------
 # /books/
 class BookListView(View):
     # 获取所有图书的数据
@@ -60,3 +62,27 @@ class BookListView(View):
         }
 
         return JsonResponse(book_dict, status=201)
+
+
+# ----------------------------------------------针对某一本书--------------------------------------
+# /books/(?P<pk>\d+)/
+class BookDetailView(View):
+    # 获取指定图书
+    def get(self, request, pk):
+        try:
+            book = BookInfo.objects.get(pk=pk)
+        except BookInfo.DoesNotExist as e:
+            return HttpResponse(status=404)
+
+        # 返回响应:200指定图书的数据
+        book_dict ={
+            'id':book.id,
+            'btitle':book.btitle,
+            'bpub_date':book.bpub_date,
+            'bread':book.bread,
+            'bcomment':book.bcomment,
+            'image':book.image.url if book.image else ""
+        }
+
+        return JsonResponse(book_dict)
+    pass
