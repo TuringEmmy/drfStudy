@@ -12,4 +12,5 @@ class BookInfoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = BookInfo
-        fields = '__all__'
+        # fields = '__all__'
+        fields=('id','btitle','bpub_date','bread','bcomment','image')
