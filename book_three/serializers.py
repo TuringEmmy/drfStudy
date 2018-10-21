@@ -8,7 +8,7 @@ from book_three.models import BookInfo
 
 # 这个是验证函数
 def control_func(value):
-    if 'django' not in value.lower():
+    if 'turing' not in value.lower():
         raise serializers.ValidationError("图书不是关于turing的")
     return value
 
