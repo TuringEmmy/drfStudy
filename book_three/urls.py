@@ -1,8 +1,8 @@
-# author        TuringEmmy 
-# createtime    18-10-19  下午5:27
-# coding=utf-8
-# doc           PyCharm
-from book_second import views
+# author    python
+# time      18-10-21 下午3:18
+# project   drtStudy
+
+from book_three import views
 
 urlpatterns = [
 
@@ -11,5 +11,6 @@ urlpatterns = [
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('book3', views.BookInfoViewSet, base_name='book3')
+router.register('book3', views.BookListView, base_name='book3')
+router.register('^book3/(?<pk>\d+)/$',views.BookDetaolView.as_view()),
 urlpatterns += router.urls

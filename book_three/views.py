@@ -1,24 +1,52 @@
+import json
+
+from django.http import HttpResponse
+from django.http import JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
-from rest_framework.viewsets import ModelViewSet
+from django.views import View
 
-from book_first.models import BookInfo
-from book_second.serializers import BookInfoSerializer
+# /book3/(?<pk>\d+)/
+from book_three.models import BookInfo
+from book_three.serializers import BookInforSerializer
 
 
-# 使用DRF框架定义RestAPI接口
-# 提供操作图书数据的5个API接口
-# 1. 获取所有图书的数据	GET /books/
-# 2. 新增一本图书的数据	POST /books/
+class BookDetaolView(View):
+    """获取指定的图书的数据"""
+    def get(self,request, pk):
+        try:
+            book = BookInfo.objects.get(pk=pk)
+        except BookInfo.DoesNotExist:
+            return HttpResponse(status=201)
 
-# 3. 获取指定图书的数据	GET /books/ID/
-# 4. 更新指定图书的数据	PUT /books/ID/
-# 5. 删除指定图书的数据	DELETE /books/ID/
+        # 返回响应
+        serializer = BookInforSerializer(book)
 
-class BookInfoViewSet(ModelViewSet):
-    # 指定当前视图所使用的查询集
-    queryset = BookInfo.objects.all()
-    # 指定当前视图所使用的序列化
-    serializer_class = BookInfoSerializer
+        return JsonResponse(serializer.data)
+
+    def put(self,request,pk):
+        """更新指定图书的数据"""
+        try:
+            book = BookInfo.objects.get(pk=pk)
+        except BookInfo.DoesNotExist:
+            return HttpResponse(status=404)
+
+        # 获取客户端传递得参数
+        req_data = request.body
+        json_str = req_data.decode()
+        req_dict = json.loads(json_str)
+
+        # 反序列化
+        serializer = BookInforSerializer(book,data = req_data)
+        # 数据校验
+        serializer.is_valid(
+            raise_exception=True
+        )
+        # 数据保存
+        serializer.save()
+
+        # 返回响应:200(返回更细后的数据)
+        return JsonResponse(serializer.data)
+class BookListView(View):
     pass

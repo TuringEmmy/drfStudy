@@ -11,5 +11,5 @@ urlpatterns = [
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('bk', views.BookInfoViewSet, base_name='bk')
+router.register('book2', views.BookInfoViewSet, base_name='book2')
 urlpatterns += router.urls
