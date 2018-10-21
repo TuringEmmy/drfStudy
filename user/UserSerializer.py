@@ -9,3 +9,4 @@ class UserSerializer(serializers.Serializer):
     name = serializers.CharField()
     age = serializers.IntegerField()
     gender=serializers.BooleanField()
+    adress = serializers.CharField()

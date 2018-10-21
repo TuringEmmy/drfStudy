@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'', include('book_three.urls')),
     url(r'', include('goods.urls')),
     url(r'', include('book_four.urls')),
-    url(r'',include('user.urls')),
+    # url(r'',include('user.urls')),
 
 ]

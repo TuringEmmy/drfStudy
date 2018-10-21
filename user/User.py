@@ -5,7 +5,8 @@
 class User(object):
     """用户"""
 
-    def __init__(self, name, age, gender):
+    def __init__(self, name, age, gender,address):
         self.name = name
         self.age = age
         self.gender = gender
+        self.adress = address
