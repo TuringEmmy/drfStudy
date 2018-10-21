@@ -9,4 +9,4 @@ class User(object):
         self.name = name
         self.age = age
         self.gender = gender
-        self.adress = address
+        self.address = address

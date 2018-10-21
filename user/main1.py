@@ -18,7 +18,7 @@ from user.UserSerializer import UserSerializer
 # ------------------------------------虚拟环境设置完成-------------------
 if __name__ == '__main__':
     # 创建User实例对象
-    user = User("turing", 23, False,'汉中')
+    user = User("turing", 23, False, '汉中')
 
     # 创建一个实例化器类的对象
     serializer = UserSerializer(user)
