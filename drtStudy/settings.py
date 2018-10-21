@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'book_second.apps.BookSecondConfig',
     'book_three.apps.BookThreeConfig',
     'goods.apps.GoodsConfig',
+    'book_four.apps.BookFourConfig',
+    'user.apps.UserConfig',
     'rest_framework',
 ]
 
