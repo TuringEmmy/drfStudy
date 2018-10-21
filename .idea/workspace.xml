@@ -37,11 +37,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_three/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="223">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#668#1238#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book_three/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,10 +60,12 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book_three/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="268">
+              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding>
                 <element signature="e#68#106#0" expanded="true" />
+                <element signature="e#820#928#0" expanded="false" />
+                <element signature="e#1003#1382#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,6 +108,7 @@
         <option value="$PROJECT_DIR$/book_three/models.py" />
         <option value="$PROJECT_DIR$/book_three/urls.py" />
         <option value="$PROJECT_DIR$/book_three/views.py" />
+        <option value="$PROJECT_DIR$/book_three/tests.py" />
         <option value="$PROJECT_DIR$/book_three/serializers.py" />
       </list>
     </option>
@@ -109,7 +123,7 @@
     <option name="x" value="37" />
     <option name="y" value="24" />
     <option name="width" value="1081" />
-    <option name="height" value="582" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -551,14 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540109655871</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="rewrite update function in serializers.py is ok">
+      <created>1540110019105</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540110019105</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="24" width="1081" height="582" extended-state="6" />
+    <frame x="37" y="24" width="1081" height="576" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27149758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1884058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,7 +617,8 @@
     <MESSAGE value="start book_three for serialize to study" />
     <MESSAGE value="serializer function and create control_func  in serializers.py to verify  btitle" />
     <MESSAGE value="rewrite create function in serializers.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrite create function in serializers.py" />
+    <MESSAGE value="rewrite update function in serializers.py is ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrite update function in serializers.py is ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,22 +901,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book_three/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_three/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#668#1238#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book_three/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="268">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="e#68#106#0" expanded="true" />
+            <element signature="e#820#928#0" expanded="false" />
+            <element signature="e#1003#1382#0" expanded="false" />
           </folding>
         </state>
       </provider>
