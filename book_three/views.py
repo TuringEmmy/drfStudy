@@ -44,7 +44,7 @@ class BookDetaillView(View):
         serializer.is_valid(
             raise_exception=True
         )
-        # 数据保存
+        # 数据保存(更新指定的图书)
         serializer.save()
 
         # 返回响应:200(返回更细后的数据)
@@ -75,4 +75,20 @@ class BookListView(View):
         # 返回响应：200
         # 为了允许非dict对象被序列化，将安全参数设置为False。
         return JsonResponse(serialzer.data,safe=False)
-    pass
+
+    def post(self,request):
+        """新增一本图书"""
+        req_data = request.body
+
+        req_data = request.body  # bytes
+        json_str = req_data.decode()
+        req_dict = json.loads(json_str)
+
+        serilalizer = BookInforSerializer(data=req_dict)
+        serilalizer.is_valid(
+            raise_exception=True
+        )
+
+        serilalizer.save()
+
+        return JsonResponse(serilalizer.data,status=201)

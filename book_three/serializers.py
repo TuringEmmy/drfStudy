@@ -16,19 +16,19 @@ def control_func(value):
 class BookInforSerializer(serializers.Serializer):
     """图书模型学历恶化器类"""
 
-    id = serializers.IntegerField(label="ID")
-    # btitle = serializers.CharField(label='标题')
-    btitle = serializers.CharField(label='标题', validators=[control_func])
+    id = serializers.IntegerField(label="ID",required=False)
+    btitle = serializers.CharField(label='标题')
+    # btitle = serializers.CharField(label='标题', validators=[control_func])
 
     bpub_date = serializers.DateField(label='出版日期')
-    bread = serializers.IntegerField(label="阅读量")
-    bcomment = serializers.IntegerField(label='评论量')
-    image = serializers.ImageField(label='封面图片')
+    bread = serializers.IntegerField(label="阅读量",required=False)
+    bcomment = serializers.IntegerField(label='评论量',required=False)
+    image = serializers.ImageField(label='封面图片',required=False)
 
     # 重写create父类703行的父类方法
     def create(self, validated_data):
         """validated_data：校验升级后的数据字典"""
-        book = BookInfo.object.create(**validated_data)
+        book = BookInfo.objects.create(**validated_data)
 
         return book
 
@@ -51,25 +51,25 @@ class BookInforSerializer(serializers.Serializer):
 
         return instance
 
-    # -------------------------------------------下面进行对单个字段进行比较校验--------------------------------
-    def validate_btitle(self, value):
-        """此函数会针对btitle的内容进行补偿验证"""
-        if 'turing' not in value.lower():
-            raise serializers.ValidationError('书籍不是关于turing的')
-        return value
+    # ----------这个方法会自动带哦用-----------------下面进行对单个字段进行比较校验--------------------------------
+    # def validate_btitle(self, value):
+    #     """此函数会针对btitle的内容进行补偿验证"""
+    #     if 'turing' not in value.lower():
+    #         raise serializers.ValidationError('书籍不是关于turing的')
+    #     return value
 
-    # ---------------------------------------下面进行对多个字段进行比较校验-----------------------------
-
-    def validate(self, attrs):
-        """
-
-        :param attrs: 创建序列化器时传入的data数据
-        :return:
-        """
-        bread = attrs['bread']
-        bcomment = attrs['bcomment']
-
-        if bread < bcomment:
-            raise serializers.ValidationError('图书阅读量必须大于评论量哦')
-
-        return attrs
+    # -----这个方法会自动调用--------------下面进行对多个字段进行比较校验-----------------------------
+    #
+    # def validate(self, attrs):
+    #     """
+    #
+    #     :param attrs: 创建序列化器时传入的data数据
+    #     :return:
+    #     """
+    #     bread = attrs['bread']
+    #     bcomment = attrs['bcomment']
+    #
+    #     if bread < bcomment:
+    #         raise serializers.ValidationError('图书阅读量必须大于评论量哦')
+    #
+    #     return attrs
