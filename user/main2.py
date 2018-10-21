@@ -13,6 +13,8 @@ django.setup()
 
 from user.UserSerializer import UserSerializer
 
+
+# 这个是反序列化
 if __name__ == '__main__':
     req_date = {
         'name': 'turing',

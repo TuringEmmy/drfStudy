@@ -69,7 +69,7 @@ class BookListView(View):
     def get(self,request):
         books = BookInfo.objects.all()
 
-        # 组织数据
+        # 组织数据,这就是序列胡化哦
         serialzer = BookInforSerializer(books,many=True)
 
         # 返回响应：200

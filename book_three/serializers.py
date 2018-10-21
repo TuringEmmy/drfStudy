@@ -6,6 +6,34 @@ from rest_framework import serializers
 from book_three.models import BookInfo
 
 
+
+# 练习关联对象的嵌套序列化(单)
+class HeroInfoSerializer(serializers.Serializer):
+    """英雄模型序列化器"""
+    GENDER_CHOICES=(
+        (0,'男'),
+        (1,'女')
+    )
+
+
+    # read_only =True 说明只能序列化的时候才能,即往出来区数据的
+    id = serializers.IntegerField(label='Id',read_only=True)
+    hname = serializers.CharField(label='姓名',max_length=20)
+    hgander = serializers.ChoiceField(label='性别',choices=GENDER_CHOICES)
+    hcomment = serializers.CharField(label='描述信息',max_length=200,allow_null=True)
+
+
+    # 1. 将关联对象序列化为对象主键内容
+    hbook = serializers.PrimaryKeyRelatedField(label='book',read_only=True)
+    # 2. 使用指定的序列化器激昂关联对象进行序列化
+    hbook = BookInforSerializer(label='book')
+    # 3. 将关联对象昂序列化为关联对象昂的模型类的__str__方法的返回值
+
+    hbook = serializers.StringRelatedField(label='book')
+
+
+
+
 # 这个是验证函数
 def control_func(value):
     if 'turing' not in value.lower():
@@ -73,3 +101,6 @@ class BookInforSerializer(serializers.Serializer):
     #         raise serializers.ValidationError('图书阅读量必须大于评论量哦')
     #
     #     return attrs
+
+
+
