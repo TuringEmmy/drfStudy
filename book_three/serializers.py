@@ -35,3 +35,24 @@ class BookInforSerializer(serializers.Serializer):
         book = BookInfo.object.create(**validated_data)
 
         return book
+
+    # 重写update方法
+    def update(self,instance,validated_data):
+        """
+
+        :param instance: 创建序列化器时传入实例对象
+        :param validated_data: 教研之后的数据局字典
+        :return: 当前这个实例对象
+        """
+        btitle = validated_data.get('btitle')
+        bpub_date = validated_data.get('bpub_date', instance.bpub_date)
+
+
+        # 更新数据
+        instance.btitle = btitle
+        instance.bpub_date = bpub_date
+
+
+        instance.save()
+
+        return instance
