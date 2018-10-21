@@ -6,6 +6,9 @@ from rest_framework import serializers
 
 
 # 这个是验证函数
+from book_three.models import BookInfo
+
+
 def control_func(value):
     if 'django' not in value.lower():
         raise serializers.ValidationError("图书不是关于turing的")
@@ -25,3 +28,10 @@ class BookInforSerializer(serializers.Serializer):
     bcomment  = serializers.IntegerField(label='评论量')
     image = serializers.ImageField(label='封面图片')
 
+
+    # 重写create父类703行的父类方法
+    def create(self,validated_data):
+        """validated_data：校验升级后的数据字典"""
+        book = BookInfo.object.create(**validated_data)
+
+        return book
