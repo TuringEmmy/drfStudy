@@ -23,13 +23,13 @@ class HeroInfoSerializer(serializers.Serializer):
     hcomment = serializers.CharField(label='描述信息',max_length=200,allow_null=True)
 
 
-    # 1. 将关联对象序列化为对象主键内容
-    hbook = serializers.PrimaryKeyRelatedField(label='book',read_only=True)
-    # 2. 使用指定的序列化器激昂关联对象进行序列化
-    hbook = BookInforSerializer(label='book')
-    # 3. 将关联对象昂序列化为关联对象昂的模型类的__str__方法的返回值
-
-    hbook = serializers.StringRelatedField(label='book')
+    # # 1. 将关联对象序列化为对象主键内容
+    # hbook = serializers.PrimaryKeyRelatedField(label='book',read_only=True)
+    # # 2. 使用指定的序列化器激昂关联对象进行序列化
+    # hbook = BookInforSerializer(label='book')
+    # # 3. 将关联对象昂序列化为关联对象昂的模型类的__str__方法的返回值
+    #
+    # hbook = serializers.StringRelatedField(label='book')
 
 
 
