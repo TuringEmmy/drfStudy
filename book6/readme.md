@@ -1,0 +1,1 @@
+## GenericAPIView视图类的使用
