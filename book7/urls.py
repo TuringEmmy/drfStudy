@@ -3,9 +3,9 @@
 # project   drtStudy
 from django.conf.urls import url
 
-from book7 import views
+from book7 import view
 
 urlpatterns = [
-    url(r'^book7/$', views.BookListView.as_view()),
-    url(r'^book7/(?P<pk>\d+)/$', views.BookDetailView.as_view()),
+    url(r'^book7/$', view.BookListView.as_view()),
+    url(r'^book7/(?P<pk>\d+)/$', view.BookDetailView.as_view()),
 ]

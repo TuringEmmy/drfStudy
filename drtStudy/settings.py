@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'book_five.apps.BookFiveConfig',
     'book6.apps.Book6Config',
     'book7.apps.Book7Config',
+    'book8.apps.Book8Config',
+
     'rest_framework',
 ]
 
