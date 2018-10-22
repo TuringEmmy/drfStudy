@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bea70d7-b77a-41ce-9567-c65c1708a3f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book6/view.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book7/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book7/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book7/SelfMixin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book7/serializers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book6/urls.py" afterPath="$PROJECT_DIR$/book6/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book6/views.py" afterPath="$PROJECT_DIR$/book6/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/settings.py" afterPath="$PROJECT_DIR$/drtStudy/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/urls.py" afterPath="$PROJECT_DIR$/drtStudy/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,9 +45,28 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book7/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="540">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelfMixin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book7/SelfMixin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#89#122#0" expanded="true" />
+                <element signature="e#206#416#0" expanded="false" />
+                <element signature="e#457#774#0" expanded="false" />
+                <element signature="e#817#1005#0" expanded="false" />
+                <element signature="e#1046#1328#0" expanded="false" />
+                <element signature="e#1370#1528#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/drtStudy/__init__.py" />
         <option value="$PROJECT_DIR$/request.txt" />
         <option value="$PROJECT_DIR$/book_first/models.py" />
         <option value="$PROJECT_DIR$/book_first/urls.py" />
@@ -128,8 +141,10 @@
         <option value="$PROJECT_DIR$/drtStudy/settings.py" />
         <option value="$PROJECT_DIR$/drtStudy/urls.py" />
         <option value="$PROJECT_DIR$/book7/urls.py" />
-        <option value="$PROJECT_DIR$/book7/views.py" />
         <option value="$PROJECT_DIR$/book7/readme.md" />
+        <option value="$PROJECT_DIR$/book7/MyListModeMixin.py" />
+        <option value="$PROJECT_DIR$/book7/SelfMixin.py" />
+        <option value="$PROJECT_DIR$/book7/views.py" />
       </list>
     </option>
   </component>
@@ -141,9 +156,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="37" />
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1049" />
-    <option name="height" value="554" />
+    <option name="height" value="542" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -203,11 +218,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book7" />
       <recent name="$PROJECT_DIR$/book6" />
       <recent name="$PROJECT_DIR$/book_five" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/user" />
-      <recent name="$PROJECT_DIR$/book_three" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.drtStudy">
@@ -738,14 +753,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540199630467</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="book7 for Mixin is begining">
+      <created>1540199913420</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1540199913420</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="52" width="1049" height="554" extended-state="0" />
+    <frame x="37" y="24" width="1049" height="542" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26819542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26819542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4077079" sideWeight="0.5027365" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,7 +815,8 @@
     <MESSAGE value="serializer for three method is ok" />
     <MESSAGE value="book5 to styudy APIView is over" />
     <MESSAGE value="book6 to study GenericAPIView is over" />
-    <option name="LAST_COMMIT_MESSAGE" value="book6 to study GenericAPIView is over" />
+    <MESSAGE value="book7 for Mixin is begining" />
+    <option name="LAST_COMMIT_MESSAGE" value="book7 for Mixin is begining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,14 +825,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note01.md" />
-    <entry file="file://$PROJECT_DIR$/book_second/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book_second/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1170,6 +1185,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book7/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book7/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1180,19 +1203,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book7/readme.md">
+    <entry file="file://$PROJECT_DIR$/book7/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book7/SelfMixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#122#0" expanded="true" />
+            <element signature="e#206#416#0" expanded="false" />
+            <element signature="e#457#774#0" expanded="false" />
+            <element signature="e#817#1005#0" expanded="false" />
+            <element signature="e#1046#1328#0" expanded="false" />
+            <element signature="e#1370#1528#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book7/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
