@@ -39,23 +39,31 @@
 
 ### 二、序列化操作
 
-1. 序列单个对象和多个对象,只是fields的传入参数不同(参看book_second)
+1. 序列单个对象和多个对象
 
 
 ```python
-class BookInfoSerializer(serializers.ModelSerializer):
-    """图书数据序列化"""
-
-    class Meta:
-        model = BookInfo
-        # fields = '__all__'
-        fields=('id','btitle','bpub_date','bread','bcomment','image')
+# 获取对象
+book = BookInfo.objects.get(id=1)
+# 创建序列化器对象
+serializer = BookInfoSerializer(book)
+# 获取序列化之后的数据
+serializer.data
 ```
 
 
 2. 关联对象的嵌套序列化(单)
+```python
+# 获取所有的图书
+books = BookInfo.objects.all()
 
+# 创建序列化器对象
+serializer = BookInfoSerializer(books, many=True)
 
+# 获取序列化之后的数据
+serializer.data
+```
+3.关联对象的嵌套序列化
 ```python
 # 1. 将关联对象序列化为对象主键内容
 hbook = serializers.PrimaryKeyRelatedField(label='book',read_only=True)
@@ -63,7 +71,9 @@ hbook = serializers.PrimaryKeyRelatedField(label='book',read_only=True)
 hbook = BookInforSerializer(label='book')
 # 3. 将关联对象昂序列化为关联对象昂的模型类的__str__方法的返回值
 hbook = serializers.StringRelatedField(label='book')
+# 注意: 如果关联的对象有多个，在定义字段的时候，需要添加`many=True`
 ```
+
 
 ### 三、反序列化
 
@@ -86,6 +96,8 @@ hbook = serializers.StringRelatedField(label='book')
     print(serializer.validated_data)
 ```
 
+> 补充序列化器验证
+> 1. 自定义验证方法，给序列化器对应的字段增加选项参数`validators`
 
 2. 数据验证行为补充
 
