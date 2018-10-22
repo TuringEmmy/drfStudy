@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'', include('goods.urls')),
     url(r'', include('book_four.urls')),
     # url(r'',include('user.urls')),
+    url(r'',include('book_five.urls')),
 
 ]
