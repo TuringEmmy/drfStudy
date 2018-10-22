@@ -3,7 +3,6 @@ from django.shortcuts import render
 
 # Create your views here.
 from rest_framework import status
-from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 
 from book6.MyGenericAPIView import MyGenericAPIView
@@ -23,7 +22,7 @@ from book6.serializers import BookInfoSerializer
 
 
 # /book6/
-class BookListView(GenericAPIView):
+class BookListView(MyGenericAPIView):
     # 指定当前视图所使用的查询集
     queryset = BookInfo.objects.all()
     # 指定当前视图所使用的序列化器类
@@ -51,7 +50,7 @@ class BookListView(GenericAPIView):
 
 
 # /book6/(?P<pk>\d+)/
-class BookDetailView(GenericAPIView):
+class BookDetailView(MyGenericAPIView):
     # 指定当前视图所使用的查询集
     queryset = BookInfo.objects.all()
     # 指定当前视图所使用的序列化器类
