@@ -36,9 +36,9 @@ class MyRetrieveModelMixin(object):
         """获取指定数据"""
         obj = self.get_object()
 
-        serizlizer = self.get_serizalizer(obj)
+        serializer = self.get_serializer(obj)
 
-        return Response(serizlizer.data)
+        return Response(serializer.data)
 
 
 class MyUpdateModelMixin(object):

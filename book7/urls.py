@@ -6,6 +6,6 @@ from django.conf.urls import url
 from book7 import views
 
 urlpatterns = [
-    url(r'^books/$', views.BookListView.as_view()),
-    url(r'^books/(?P<pk>\d+)/$', views.BookDetailView.as_view()),
+    url(r'^book7/$', views.BookListView.as_view()),
+    url(r'^book7/(?P<pk>\d+)/$', views.BookDetailView.as_view()),
 ]
