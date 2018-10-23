@@ -31,5 +31,6 @@ urlpatterns = [
     url(r'', include('book09.urls')),
     url(r'', include('book10.urls')),
     url(r'', include('book11.urls')),
+    url(r'', include('book12.urls')),
 
 ]

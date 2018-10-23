@@ -1,99 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bea70d7-b77a-41ce-9567-c65c1708a3f0" name="Default" comment="book10' url is over">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/MyGenericAPIView.py" afterPath="$PROJECT_DIR$/book06/MyGenericAPIView.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/__init__.py" afterPath="$PROJECT_DIR$/book08/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/admin.py" afterPath="$PROJECT_DIR$/book08/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/apps.py" afterPath="$PROJECT_DIR$/book06/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/migrations/__init__.py" afterPath="$PROJECT_DIR$/book08/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/models.py" afterPath="$PROJECT_DIR$/book09/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/readme.md" afterPath="$PROJECT_DIR$/book06/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/serializers.py" afterPath="$PROJECT_DIR$/book08/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/tests.py" afterPath="$PROJECT_DIR$/book08/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/urls.py" afterPath="$PROJECT_DIR$/book06/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/view.py" afterPath="$PROJECT_DIR$/book06/view.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book6/views.py" afterPath="$PROJECT_DIR$/book06/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/SelfMixin.py" afterPath="$PROJECT_DIR$/book07/SelfMixin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/__init__.py" afterPath="$PROJECT_DIR$/book07/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/admin.py" afterPath="$PROJECT_DIR$/book07/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/apps.py" afterPath="$PROJECT_DIR$/book07/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/migrations/__init__.py" afterPath="$PROJECT_DIR$/book07/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/models.py" afterPath="$PROJECT_DIR$/book08/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/readme.md" afterPath="$PROJECT_DIR$/book07/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/serializers.py" afterPath="$PROJECT_DIR$/book07/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/tests.py" afterPath="$PROJECT_DIR$/book07/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/urls.py" afterPath="$PROJECT_DIR$/book07/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/view.py" afterPath="$PROJECT_DIR$/book07/view.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book7/views.py" afterPath="$PROJECT_DIR$/book07/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/SelfSmallMixin.py" afterPath="$PROJECT_DIR$/book08/SelfSmallMixin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/__init__.py" afterPath="$PROJECT_DIR$/book06/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/admin.py" afterPath="$PROJECT_DIR$/book06/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/apps.py" afterPath="$PROJECT_DIR$/book08/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/migrations/__init__.py" afterPath="$PROJECT_DIR$/book06/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/models.py" afterPath="$PROJECT_DIR$/book07/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/readme.md" afterPath="$PROJECT_DIR$/book08/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/serializers.py" afterPath="$PROJECT_DIR$/book06/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/tests.py" afterPath="$PROJECT_DIR$/book06/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/urls.py" afterPath="$PROJECT_DIR$/book08/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book8/views.py" afterPath="$PROJECT_DIR$/book08/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book9/SelfViewSet.py" afterPath="$PROJECT_DIR$/book09/SelfViewSet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book9/models.py" afterPath="$PROJECT_DIR$/book06/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book9/readme.md" afterPath="$PROJECT_DIR$/book09/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book9/serializers.py" afterPath="$PROJECT_DIR$/book09/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book9/urls.py" afterPath="$PROJECT_DIR$/book09/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/__init__.py" afterPath="$PROJECT_DIR$/book05/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/admin.py" afterPath="$PROJECT_DIR$/book05/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/apps.py" afterPath="$PROJECT_DIR$/book01/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/book01/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/migrations/__init__.py" afterPath="$PROJECT_DIR$/book05/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/models.py" afterPath="$PROJECT_DIR$/book05/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/tests.py" afterPath="$PROJECT_DIR$/book05/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/urls.py" afterPath="$PROJECT_DIR$/book01/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_first/views.py" afterPath="$PROJECT_DIR$/book01/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/__init__.py" afterPath="$PROJECT_DIR$/book04/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/admin.py" afterPath="$PROJECT_DIR$/book04/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/apps.py" afterPath="$PROJECT_DIR$/book05/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/migrations/__init__.py" afterPath="$PROJECT_DIR$/book04/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/models.py" afterPath="$PROJECT_DIR$/book04/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/readme.md" afterPath="$PROJECT_DIR$/book05/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/serializers.py" afterPath="$PROJECT_DIR$/book05/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/tests.py" afterPath="$PROJECT_DIR$/book04/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/urls.py" afterPath="$PROJECT_DIR$/book05/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_five/views.py" afterPath="$PROJECT_DIR$/book05/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/__init__.py" afterPath="$PROJECT_DIR$/book03/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/admin.py" afterPath="$PROJECT_DIR$/book03/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/apps.py" afterPath="$PROJECT_DIR$/book04/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/migrations/__init__.py" afterPath="$PROJECT_DIR$/book03/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/models.py" afterPath="$PROJECT_DIR$/book01/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/serializers.py" afterPath="$PROJECT_DIR$/book04/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/tests.py" afterPath="$PROJECT_DIR$/book02/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/urls.py" afterPath="$PROJECT_DIR$/book04/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_four/views.py" afterPath="$PROJECT_DIR$/book04/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/__init__.py" afterPath="$PROJECT_DIR$/book02/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/admin.py" afterPath="$PROJECT_DIR$/book02/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/apps.py" afterPath="$PROJECT_DIR$/book02/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/migrations/__init__.py" afterPath="$PROJECT_DIR$/book02/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/models.py" afterPath="$PROJECT_DIR$/book02/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/serializers.py" afterPath="$PROJECT_DIR$/book02/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/test01.py" afterPath="$PROJECT_DIR$/book02/test01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/tests.py" afterPath="$PROJECT_DIR$/book01/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/urls.py" afterPath="$PROJECT_DIR$/book02/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_second/views.py" afterPath="$PROJECT_DIR$/book02/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/__init__.py" afterPath="$PROJECT_DIR$/book01/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/admin.py" afterPath="$PROJECT_DIR$/book01/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/apps.py" afterPath="$PROJECT_DIR$/book03/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/book03/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/migrations/__init__.py" afterPath="$PROJECT_DIR$/book01/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/models.py" afterPath="$PROJECT_DIR$/book03/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/serializers.py" afterPath="$PROJECT_DIR$/book03/serializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/tests.py" afterPath="$PROJECT_DIR$/book03/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/urls.py" afterPath="$PROJECT_DIR$/book03/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/book_three/views.py" afterPath="$PROJECT_DIR$/book03/views.py" />
+    <list default="true" id="7bea70d7-b77a-41ce-9567-c65c1708a3f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book11/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book11/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book11/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book11/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book12/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book12/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book12/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book10/readme.md" afterPath="$PROJECT_DIR$/book10/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book10/serializers.py" afterPath="$PROJECT_DIR$/book10/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book10/urls.py" afterPath="$PROJECT_DIR$/book10/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/settings.py" afterPath="$PROJECT_DIR$/drtStudy/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/urls.py" afterPath="$PROJECT_DIR$/drtStudy/urls.py" />
     </list>
@@ -120,7 +37,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book12/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#69#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book12/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,12 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/views.py" />
-        <option value="$PROJECT_DIR$/user/main.py" />
-        <option value="$PROJECT_DIR$/user/UserSerializer.py" />
-        <option value="$PROJECT_DIR$/user/User.py" />
-        <option value="$PROJECT_DIR$/user/UserSerializer_for_main3.py" />
-        <option value="$PROJECT_DIR$/user/main3.py" />
         <option value="$PROJECT_DIR$/user/main1.py" />
         <option value="$PROJECT_DIR$/user/node.md" />
         <option value="$PROJECT_DIR$/user/main2.py" />
@@ -192,9 +128,15 @@
         <option value="$PROJECT_DIR$/book09/urls.py" />
         <option value="$PROJECT_DIR$/book10/urls.py" />
         <option value="$PROJECT_DIR$/book10/views.py" />
-        <option value="$PROJECT_DIR$/book10/readme.md" />
+        <option value="$PROJECT_DIR$/book11/serializers.py" />
+        <option value="$PROJECT_DIR$/book11/readme.md" />
+        <option value="$PROJECT_DIR$/book11/views.py" />
+        <option value="$PROJECT_DIR$/book11/urls.py" />
         <option value="$PROJECT_DIR$/drtStudy/settings.py" />
         <option value="$PROJECT_DIR$/drtStudy/urls.py" />
+        <option value="$PROJECT_DIR$/book10/readme.md" />
+        <option value="$PROJECT_DIR$/book12/views.py" />
+        <option value="$PROJECT_DIR$/book12/urls.py" />
       </list>
     </option>
   </component>
@@ -207,8 +149,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="37" />
     <option name="y" value="24" />
-    <option name="width" value="1325" />
-    <option name="height" value="591" />
+    <option name="width" value="854" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -251,7 +193,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="book11" />
+              <option name="myItemId" value="book12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drtStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drtStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book10" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,11 +224,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book12" />
+      <recent name="$PROJECT_DIR$/book11" />
       <recent name="$PROJECT_DIR$/book10" />
       <recent name="$PROJECT_DIR$/book9" />
       <recent name="$PROJECT_DIR$/book8" />
-      <recent name="$PROJECT_DIR$/book7" />
-      <recent name="$PROJECT_DIR$/book6" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.drtStudy">
@@ -873,23 +829,30 @@
       <option name="project" value="LOCAL" />
       <updated>1540263326104</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="create app book11">
+      <created>1540265418781</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1540265418781</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="24" width="1325" height="591" extended-state="6" />
-    <editor active="false" />
+    <frame x="37" y="24" width="854" height="559" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13448006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21163367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4077079" sideWeight="0.5027365" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.4972635" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3311828" sideWeight="0.4972635" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21694215" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -907,7 +870,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="have a bug&lt;not install 'rest_framework',&gt;" />
     <MESSAGE value="serializers is ok" />
     <MESSAGE value="study in test01 to study serializers" />
     <MESSAGE value="start book_three for serialize to study" />
@@ -932,7 +894,8 @@
     <MESSAGE value="create functin have a bug" />
     <MESSAGE value="ViewSet'study is over" />
     <MESSAGE value="book10' url is over" />
-    <option name="LAST_COMMIT_MESSAGE" value="book10' url is over" />
+    <MESSAGE value="create app book11" />
+    <option name="LAST_COMMIT_MESSAGE" value="create app book11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,89 +904,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book05/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book05/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="81" selection-end-column="58" />
-          <folding>
-            <element signature="e#587#717#0" expanded="false" />
-            <element signature="e#766#961#0" expanded="false" />
-            <element signature="e#1066#1270#0" expanded="false" />
-            <element signature="e#1322#1659#0" expanded="false" />
-            <element signature="e#1714#1912#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/MyGenericAPIView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="47" column="11" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book06/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drtStudy/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book07/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1271,7 +1151,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <element signature="e#68#100#0" expanded="true" />
+            <element signature="e#68#100#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1281,7 +1161,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#68#100#0" expanded="true" />
+            <element signature="e#68#100#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1299,7 +1179,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
-            <element signature="e#68#100#0" expanded="true" />
+            <element signature="e#68#100#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1341,7 +1221,7 @@
         <state relative-caret-position="150">
           <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#69#101#0" expanded="true" />
+            <element signature="e#69#101#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1354,20 +1234,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book10/views.py">
+    <entry file="file://$PROJECT_DIR$/book11/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="90">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book11/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book11/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book11/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#69#101#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/python/Desktop/drtStudy/book11/views.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/python/Desktop/drtStudy/book11/views.py</OriginalElement>
+          <nodes>
+            <node x="" y="">rest_framework.mixins.CreateModelMixin</node>
+            <node x="" y="">object</node>
+            <node x="" y="">rest_framework.viewsets.GenericViewSet</node>
+            <node x="" y="">rest_framework.viewsets.ModelViewSet</node>
+            <node x="" y="">django.views.generic.base.View</node>
+            <node x="" y="">_collections_abc.Hashable</node>
+            <node x="" y="">rest_framework.mixins.UpdateModelMixin</node>
+            <node x="" y="">rest_framework.viewsets.ViewSetMixin</node>
+            <node x="" y="">rest_framework.generics.GenericAPIView</node>
+            <node x="" y="">book11.views.BookInfoViewSet</node>
+            <node x="" y="">rest_framework.views.APIView</node>
+            <node x="" y="">rest_framework.mixins.DestroyModelMixin</node>
+            <node x="" y="">rest_framework.mixins.RetrieveModelMixin</node>
+            <node x="" y="">rest_framework.mixins.ListModelMixin</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="1884.3636363636363" y="465.18181818181813" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book11/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book10/readme.md">
+    <entry file="file://$PROJECT_DIR$/drtStudy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drtStudy/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book12/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book12/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1387,19 +1356,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drtStudy/settings.py">
+    <entry file="file://$PROJECT_DIR$/book10/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drtStudy/urls.py">
+    <entry file="file://$PROJECT_DIR$/book10/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="298">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book12/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book12/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#69#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

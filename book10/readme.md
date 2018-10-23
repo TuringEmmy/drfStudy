@@ -6,3 +6,7 @@ RetrieveModelMixin,
 UpdateModelMixin,
 DestroyModelMixin,
 GenericViewSet
+
+
+
+**# class BookInfoViewSet(ViewSetMixin, GenericAPIView):**这个还是有问题
