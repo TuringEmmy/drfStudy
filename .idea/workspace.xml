@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bea70d7-b77a-41ce-9567-c65c1708a3f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book9/urls.py" afterPath="$PROJECT_DIR$/book9/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/settings.py" afterPath="$PROJECT_DIR$/drtStudy/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,13 +53,13 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book9/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="205">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="e#702#848#0" expanded="false" />
+                <element signature="e#908#1201#0" expanded="false" />
                 <element signature="e#1277#1496#0" expanded="false" />
-                <element signature="e#1569#1906#0" expanded="false" />
                 <element signature="e#1983#2181#0" expanded="false" />
               </folding>
             </state>
@@ -833,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540261277355</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="create functin have a bug">
+      <created>1540261777765</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1540261777765</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -846,7 +851,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2535497" sideWeight="0.4972635" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29817444" sideWeight="0.4972635" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22920893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -867,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get books and add a book databases django_study is ok" />
     <MESSAGE value="get one book detail is ok" />
     <MESSAGE value="edit a serializers demo in book_second" />
     <MESSAGE value="have a bug&lt;not install 'rest_framework',&gt;" />
@@ -892,7 +896,8 @@
     <MESSAGE value="create a new app book9 is over" />
     <MESSAGE value="the first route is over to &lt;BookInfoSetViewSet&gt;" />
     <MESSAGE value="by ViewSetMixin,APIView to study ViewSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="by ViewSetMixin,APIView to study ViewSet" />
+    <MESSAGE value="create functin have a bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="create functin have a bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,6 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,6 +1021,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,6 +1036,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,6 +1080,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="81" selection-end-column="58" />
+          <folding>
+            <element signature="e#593#723#0" expanded="false" />
+            <element signature="e#772#967#0" expanded="false" />
+            <element signature="e#1072#1276#0" expanded="false" />
+            <element signature="e#1328#1665#0" expanded="false" />
+            <element signature="e#1720#1918#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,6 +1116,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#68#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,6 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,6 +1164,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#68#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,13 +1324,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book9/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="205">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="e#702#848#0" expanded="false" />
+            <element signature="e#908#1201#0" expanded="false" />
             <element signature="e#1277#1496#0" expanded="false" />
-            <element signature="e#1569#1906#0" expanded="false" />
             <element signature="e#1983#2181#0" expanded="false" />
           </folding>
         </state>
