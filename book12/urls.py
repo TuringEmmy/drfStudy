@@ -17,5 +17,9 @@ urlpatterns = [
     })),
     url(r'book12/(?P<pk>\d+)/read/$', views.BookInfoViewSet.as_view({
         'put': 'read',
-    }))
+    })),
+    url(r'book12/latest/$', views.BookInfoViewSet.as_view({
+        'get': 'latest',
+    })),
+
 ]
