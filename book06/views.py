@@ -6,7 +6,7 @@ from rest_framework import status
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 
-from book06.MyGenericAPIView import MyGenericAPIView
+from book06.SelfGenericAPIView import MyGenericAPIView
 
 # 使用Django基础知识自定义RestAPI接口
 # 提供操作图书数据的5个API接口
