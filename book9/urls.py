@@ -6,8 +6,13 @@ from django.conf.urls import url
 from book9 import views
 
 urlpatterns = [
-    url(r'book9/$', views.BookInfoViewSet.as_view({
+    url(r'^book9/$', views.BookInfoViewSet.as_view({
         'get': 'list',
         'post': 'create',
+    })),
+    url(r'^book9/(?P<pk>\d+)/$',views.BookInfoViewSet.as_view({
+        'get':'retrieve',
+        'put':'update',
+        'delete':'destroy'
     })),
 ]
