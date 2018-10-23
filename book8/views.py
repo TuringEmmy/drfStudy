@@ -15,8 +15,8 @@ from rest_framework.generics import GenericAPIView
 from rest_framework.mixins import ListModelMixin, CreateModelMixin, RetrieveModelMixin, DestroyModelMixin, \
     UpdateModelMixin
 
-from book7.models import BookInfo
-from book7.serializers import BookInfoSerializer
+from book8.models import BookInfo
+from book8.serializers import BookInfoSerializer
 from book8.SelfSmallMixin import MyListCreateAPIView, MyRetrieveUpdateDestroyAPIView
 
 
