@@ -12,7 +12,7 @@ from book13.serializers import BookInfoSerializer
 class BookInfoViewSet(ModelViewSet):
     """视图集"""
 
-    querryset = BookInfo.objects.all()
+    queryset = BookInfo.objects.all()
     serializer_class = BookInfoSerializer
 
     # 指定路由Router动态生成url配置项时提取参数的正则表达式

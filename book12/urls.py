@@ -7,8 +7,8 @@ from book12 import views
 
 urlpatterns = [
     url(r'^book12/$', views.BookInfoViewSet.as_view({
-        'post': 'list',
-        'get': 'create',
+        'get': 'list',
+        'post': 'create',
     })),
     url(r'^book12/(?P<pk>\d+)/$', views.BookInfoViewSet.as_view({
         'get': 'retrieve',
