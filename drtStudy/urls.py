@@ -18,17 +18,18 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('book_first.urls')),
-    url(r'', include('book_second.urls')),
-    url(r'', include('book_three.urls')),
+    url(r'', include('book01.urls')),
+    url(r'', include('book02.urls')),
+    url(r'', include('book03.urls')),
     url(r'', include('goods.urls')),
-    url(r'', include('book_four.urls')),
+    url(r'', include('book04.urls')),
     # url(r'',include('user.urls')),
-    url(r'',include('book_five.urls')),
-    url(r'',include('book6.urls')),
-    url(r'',include('book7.urls')),
-    url(r'', include('book8.urls')),
-    url(r'', include('book9.urls')),
+    url(r'', include('book05.urls')),
+    url(r'', include('book06.urls')),
+    url(r'', include('book07.urls')),
+    url(r'', include('book08.urls')),
+    url(r'', include('book09.urls')),
     url(r'', include('book10.urls')),
+    url(r'', include('book11.urls')),
 
 ]
