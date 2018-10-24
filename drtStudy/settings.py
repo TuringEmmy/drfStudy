@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'book14.apps.Book14Config',
     'book15.apps.Book15Config',
     'book16.apps.Book16Config',
+    'book17.apps.Book17Config',
     'rest_framework',
 ]
 
@@ -138,3 +139,55 @@ STATIC_URL = '/static/'
 STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+# ===========================DRF的一些设置===============================
+REST_FRAMEWORK = {
+    # DRF框架默认全局认证方式
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     # session认证
+    #     'rest_framework.authentication.SessionAuthentication',
+    #     # 基本认证
+    #     'rest_framework.authentication.BasicAuthentication'
+    # ),
+    # 权限控制
+    'DEFAULT_PERMISSION_CLASSES': (
+        # 'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
+    ),
+    # 全局限流设置(针对匿名用户和认证用户分别进行限流设置)
+    # 'DEFAULT_THROTTLE_CLASSES': (
+    #     # 针对未登录(匿名)用户的限流控制类
+    #     'rest_framework.throttling.AnonRateThrottle',
+    #     # 针对登录(认证)用户的限流控制类
+    #     'rest_framework.throttling.UserRateThrottle'
+    # ),
+    # # 指定限流频次
+    # 'DEFAULT_THROTTLE_RATES': {
+    #     # 认证用户的限流频次
+    #     'user': '5/minute',
+    #     # 匿名用户的限流频次
+    #     'anon': '3/minute',
+    # },
+    # 针对匿名用户和认证用户进行统一的限流控制
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.ScopedRateThrottle',
+    ),
+
+    # 指定限流频次选择项
+    'DEFAULT_THROTTLE_RATES': {
+        'upload': '3/minute',
+        'contacts': '5/minute'
+    },
+
+    # 过滤
+    # 'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
+
+    # 全局分页设置
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    # 'DEFAULT_PAGINATION_CLASS':  'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 3,  # 每页数目
+
+    # 指定DRF框架的异常处理函数
+    'EXCEPTION_HANDLER': 'book16.utils.exceptions.exception_hander',
+
+}

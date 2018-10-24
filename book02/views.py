@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from rest_framework.viewsets import ModelViewSet
 
-from book01.models import BookInfo
+from book02.models import BookInfo
 from book02.serializers import BookInfoSerializer
 
 
