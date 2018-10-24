@@ -10,9 +10,9 @@ urlpatterns = [
         'get': 'list',
         'post': 'create',
     })),
-    url(r'^book9/(?P<pk>\d+)/$',views.BookInfoViewSet.as_view({
-        'get':'retrieve',
-        'put':'update',
-        'delete':'destroy'
+    url(r'^book9/(?P<pk>\d+)/$', views.BookInfoViewSet.as_view({
+        'get': 'retrieve',
+        'put': 'update',
+        'delete': 'destroy'
     })),
 ]
