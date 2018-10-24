@@ -5,7 +5,7 @@ from django.conf.urls import url
 
 from book08 import views
 
-urlpatterns = {
+urlpatterns = [
     url(r'^book8/$', views.BookListView.as_view()),
     url(r'^book8/(?P<pk>\d+)/$', views.BookDetailView.as_view()),
-}
+]
