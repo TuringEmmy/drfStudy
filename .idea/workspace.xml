@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bea70d7-b77a-41ce-9567-c65c1708a3f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book14/SelfPermission.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book14/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book14/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book09/urls.py" afterPath="$PROJECT_DIR$/book09/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/settings.py" afterPath="$PROJECT_DIR$/drtStudy/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drtStudy/urls.py" afterPath="$PROJECT_DIR$/drtStudy/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +72,8 @@
       <file leaf-file-name="SelfPermission.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book14/SelfPermission.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -174,7 +167,7 @@
     <option name="x" value="37" />
     <option name="y" value="24" />
     <option name="width" value="799" />
-    <option name="height" value="635" />
+    <option name="height" value="553" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -885,11 +878,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540283910027</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="new app book14 is over and add SelfPermission">
+      <created>1540366231588</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1540366231588</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="24" width="799" height="635" extended-state="6" />
+    <frame x="37" y="24" width="799" height="553" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37527114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -919,7 +919,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rewrite update function in serializers.py is ok" />
     <MESSAGE value="three method to vertify field in serializers file" />
     <MESSAGE value="find a wrong &lt;url(r'book_t/(?P&lt;pk&gt;\d+)/$', views.BookDetaillView.as_view)&gt; to write &lt;url(r'book_t/(?P&lt;pk&gt;\d+)/$', views.BookDetaillView.as_view())&gt;" />
     <MESSAGE value="APIView study is begining" />
@@ -944,7 +943,8 @@
     <MESSAGE value="create app book13 is ok" />
     <MESSAGE value="get url config list is ok" />
     <MESSAGE value=" spell queryset is wrong in book13" />
-    <option name="LAST_COMMIT_MESSAGE" value=" spell queryset is wrong in book13" />
+    <MESSAGE value="new app book14 is over and add SelfPermission" />
+    <option name="LAST_COMMIT_MESSAGE" value="new app book14 is over and add SelfPermission" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,13 +953,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book04/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book05/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1271,6 +1264,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1376,10 +1370,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meiduo/lib/python3.5/site-packages/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book14/SelfPermission.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
       </provider>
