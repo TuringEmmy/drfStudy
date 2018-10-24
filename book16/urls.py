@@ -6,5 +6,5 @@ from django.conf.urls import url
 from book16 import views
 
 urlpatterns=[
-    url(r'^index/$',views.IndexView.as_view()),
+    url(r'^book16/$',views.IndexView.as_view()),
 ]
