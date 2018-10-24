@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'book13.apps.Book13Config',
     'book14.apps.Book14Config',
     'book15.apps.Book15Config',
+    'book16.apps.Book16Config',
     'rest_framework',
 ]
 

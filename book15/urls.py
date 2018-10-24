@@ -5,6 +5,6 @@ from django.conf.urls import url
 
 from book15 import views
 
-urlpatterns=[
-    url(r'book15/$',views.BookListView.as_view()),
+urlpatterns = [
+    url(r'book15/$', views.BookListView.as_view()),
 ]
